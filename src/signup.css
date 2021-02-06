@@ -1,0 +1,251 @@
+/*body {
+    --color-primary: #009579;
+      --color-primary-dark: #007f67;
+      --color-secondary: #252c6a;
+      --color-error: #cc3333;
+      --color-success: #4bb544;
+      --border-radius: 4px;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+   
+    background-size: cover;
+  }
+  
+  
+  .container_signup {
+    width: 400px;
+    max-width: 400px;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    background:white;
+  }
+  
+  h1{
+    margin: -10px 0;
+    font-size: 20px;
+  }
+  .signup__input {
+  
+    width: 100%;
+    padding: 2px;
+    box-sizing: border-box;
+    border-radius: var(--border-radius);
+    border: 1px solid #dddddd;
+    outline: none;
+    color:green;
+    background: #eeeeee;
+    transition: background 0.2s, border-color 0.2s;
+    margin:7px 0;
+  }
+  
+  
+  
+  
+  
+  
+  
+  .signup__input:focus {
+    border-color: var(--color-primary);
+    background: #ffffff;
+  }
+  
+  .signup__input input{
+
+font-size:12px;
+width:100%;
+margin:2px 0;
+
+  }
+  
+  
+  
+  .roles1 .role_button {
+    width: 100%;
+    font-size:15px;
+    padding: -15px 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #ffffff;
+    border: 1px;
+    border-radius: var(--border-radius);
+    outline: none;
+    cursor: pointer;
+    background: var(--color-primary);
+    margin:auto 20px;
+  }
+  
+  .signup_button:hover {
+    background: var(--color-primary-dark);
+  }
+  
+  .signup_button:active {
+    transform: scale(0.98);
+  }
+  .roles1{
+    display:inline-flex;
+    width:100%;
+    
+  }
+  .btnsubmit {
+    width: 100%;
+    padding: 10px 10px;
+    color:white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #ffffff;
+    border: none;
+    border-radius: var(--border-radius);
+    outline: none;
+    cursor: pointer;
+    background: var(--color-primary);
+    margin-top:10px;
+    
+  }*/
+  /*
+dark blue: #476A6F
+light blue: #258EA6
+dark green: #519E8A
+medium green: #7EB09B
+light green: #A3C4BC
+*/
+
+.wrapper {
+  height: 82vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.form-wrapper {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px #555;
+  background-color: #ffffff;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+  width: 100%;
+  color: #111;
+  font-weight: lighter;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+label {
+  font-size: 0.8em;
+  margin-bottom: 0.25em;
+  color: #222;
+  font-weight: lighter;
+}
+
+input {
+  padding: 10px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #cfcfcf;
+  
+}
+
+input::placeholder {
+  font-size: 1.2em;
+  font-weight: lighter;
+  color: #999;
+  font-size:10px;
+}
+
+input.error {
+  border: 1px solid red;
+}
+
+.errorMessage {
+  color: red;
+  font-size: 0.75em;
+  display: relative;
+}
+
+.firstName {
+  margin-right: 1%;
+}
+
+.lastName {
+  margin-left: 1%;
+}
+
+.firstName,
+.lastName,
+.email,
+.password,
+.confirmpassword {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.firstName,
+.lastName {
+  width: 49%;
+}
+
+.email,
+.password,
+.confirmpassword
+ {
+  width: 100%;
+}
+
+.createAccount {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.createAccount button {
+  background-color: #519e8a;
+  color: #fff;
+  border: 2px solid #fff;
+  width: 100%;
+  margin-top: 1em;
+  padding: 8px 0px;
+  font-size: 1em;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  margin-bottom: 0.25em;
+}
+
+.createAccount button:hover {
+  color: #519e8a;
+  background-color: #fff;
+  border: 2px solid #519e8a;
+}
+
+.createAccount small {
+  color: #999;
+  font-weight: lighter;
+}
+  

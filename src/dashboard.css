@@ -1,0 +1,205 @@
+.container1 {
+    display: grid;
+    width:100%;
+    grid-template-columns: 200px 0.8fr 0.8fr 0.8fr;
+    grid-template-rows: 0.5fr 1.5fr 1.7fr 0.2fr;
+    
+    grid-template-areas:
+      "Nav Header Header Header"
+      "Nav Main Main Sitebar-top"
+      "Nav Main Main Sitebar-bottom"
+      "Nav Footer Footer Footer";
+    height:100vh;
+  }
+
+  .header1{
+      display:inline-flex;
+      justify-content: space-between;
+    background: darkcyan;
+    grid-area: Header;
+    padding-left:20px;
+    
+  }
+
+  main {
+    background: white;
+    grid-area: Main;
+    border-top: 9px solid darkcyan;
+    border-bottom: 9px solid darkcyan;
+    border-left: 9px solid darkcyan;
+    
+  }
+  .main h1{
+  
+    margin-left:30px;
+    margin-bottom:30px;
+  }
+
+  nav {
+    background: rgba(70, 3, 3, 0.932);
+    grid-area: Nav;
+    border: 9px solid darkcyan;
+  }
+  
+  .site-nav ul{
+      margin-top:40px;
+  }
+  .site-nav ul li{
+    list-style-type: none;
+  }
+  
+  .site-nav ul li a{
+    color: white;
+    margin: 0 -20px;
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 50px;
+   
+  }
+  
+  .site-nav ul li a:hover{
+  cursor: pointer;
+  }
+
+  header {
+    background: darkcyan;
+    grid-area: Header;
+    padding-left:20px;
+    
+  }
+  main {
+    background: white;
+    grid-area: Main;
+    border-top: 9px solid darkcyan;
+    border-bottom: 9px solid darkcyan;
+    border-left: 9px solid darkcyan;
+    
+  }
+  .main h1{
+  
+    margin-left:30px;
+    margin-bottom:30px;
+    margin-top:45px;
+  }
+  
+  .Filteritem{
+  
+    display:inline;
+    margin-left:30px;
+    
+    
+  }
+  .Courses{
+  
+    display:flex;
+    margin-top:30px;
+    
+  }
+  .course-card{
+    border:1px solid black;
+    margin-left:30px;
+    margin-top:20px;
+    padding:40px;
+    background:rgb(161, 159, 159);
+  }
+  
+  
+  .sidebar-top {
+    background: beige;
+    grid-area: Sitebar-top;
+    border: 9px solid darkcyan;
+  }
+  .sidebar-bottom {
+    background: orange;
+    grid-area: Sitebar-bottom;
+    text-align: center;
+    padding-top:5%;
+    background-color:white;
+    border: 9px solid darkcyan;
+  }
+  
+  .sidebar-bottom a{
+  
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 10px 48px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  
+  
+  }
+  .new {
+    font-size:30px;
+    font-weight:bold;
+  }
+  footer {
+    background:darkcyan;
+    grid-area:Footer;
+  }
+
+  div.welcome{
+
+    color:white;
+    margin-left: 5px;
+  }
+  div.logout input{
+
+   
+    background: darkcyan;
+    border:none;
+    font-weight:bolder;
+    cursor: pointer;
+  }
+  .text{
+      color: white;
+      font-size:15px;
+  }
+
+  .sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+ 
